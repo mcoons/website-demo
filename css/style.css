@@ -1,0 +1,160 @@
+
+body {
+	color: #000000;
+	background-color: #ffffff;
+  padding-top: 65px;
+	background-image:url(../images/digitalart/abstract-bw-seamless.jpg);
+	background-attachment: fixed;
+}
+
+a {color: #1a53ff;}
+
+a:hover {color: #002080;}
+
+.row a img {	box-shadow: 5px 5px 15px 1px #005577;}
+
+.site {
+  display: flex;
+	flex-direction: column;
+  height: 100vh;
+}
+
+.container {   /* Modify Bootstrap container class */
+  flex: 1 0 auto;     /* Used to push footer to bottom of short page */
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+	background-image:  url('../images/digitalart/abstract-seamless.jpg');
+	background-attachment: fixed;
+  text-align: center;
+	font-size: large;
+
+  font-weight: bold;
+	flex-shrink: 0;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	margin-top: 20px;
+}
+
+.project-lt {
+  background-color: #e6f2ff;
+  padding:20px;
+	box-shadow: 5px 5px 15px 1px #333333;
+
+}
+
+.project-dk {
+/*  background-color:#66ffff; */
+background-color: #cce6ff;
+  padding:20px;
+	box-shadow: 5px 5px 15px 1px #333333;
+}
+
+.tools-lt {
+  background-color:#e6f2ff;
+	padding-left:20px;
+	padding-bottom: 20px;
+  border-radius: 10px;
+	box-shadow: 2px 2px 10px 2px #447777 inset;
+}
+
+.tools-dk {
+/*  background-color:#66ffff;  */
+	background-color: #cce6ff;
+
+	padding-left:20px;
+	padding-bottom: 20px;
+  border-radius: 10px;
+	box-shadow: 2px 2px 10px 2px #447777 inset;
+}
+
+.tool-logo {
+  float:left;
+  margin-right: 10px;
+}
+
+.mycanvas {
+  background-color: #ccccff;
+  width: 100%;
+  height: auto;
+}
+
+.header-div {
+	background-image:  url('../images/digitalart/abstract-seamless-blue.jpg');
+	background-attachment: fixed;
+	border-radius: 15px;
+	padding: 35px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	box-shadow: 5px 5px 15px 1px #333333;
+}
+
+.header-text-div {
+	background-image:  url('../images/digitalart/abstract-lt-seamless.jpg');
+	background-attachment: fixed;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 3px 3px 10px #333333 inset;
+}
+
+.customButton:hover {
+	background-color: #ddffdd;
+}
+
+.customButton:active {
+	transform: translateY(4px);
+	box-shadow: 4px 4px 10px 0px #cccccc inset, -4px -4px 10px 0px #333333 inset, 1px 1px 1px 0px #335577 ;
+}
+
+.customButton {
+	background-color: #999999;
+	padding: 5px;
+	width: 100px;
+	border: 0px;
+	box-shadow: 4px 4px 10px 0px #cccccc inset, -4px -4px 10px 0px #333333 inset, 2px 3px 10px 2px #335577 ;
+	transition-duration: 0.1s;
+}
+.customInput:hover {
+	outline: solid 4px orange;
+	transition-duration: 0.1s;
+}
+
+.customInput:focus {
+	outline: solid 4px green;
+}
+
+.customInput:active {
+	outline: solid 4px green;
+}
+
+.header-text-div h1 {
+	font-weight: bold !important;
+	font-style: italic;
+}
+
+.photos img {cursor: pointer; box-shadow: 5px 5px 15px 1px #447777;}
+.photos img:hover {box-shadow: 0px 0px 10px 5px #55ee00;}
+
+.modal-dialog {box-shadow: 15px 15px 25px #111111;}
+
+.modal-body img {box-shadow: 5px 5px 15px 1px #333333;}
+
+.modal-body {background-image:url(../images/digitalart/abstract-bw-seamless.jpg);	background-attachment: fixed;}
+
+.modal-header {background-image:  url('../images/digitalart/abstract-lt-seamless.jpg');	background-attachment: fixed;}
+
+/* TODO: Fix for IE */
+.textured-text {
+	font-family: Chewy;
+	font-size: 200px;
+  font-weight: bolder;
+	text-align:center;
+
+	background:	 url('../images/digitalart/abstract-seamless-red.jpg') repeat;
+	background-attachment: fixed;
+}
